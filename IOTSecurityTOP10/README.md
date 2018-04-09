@@ -1,7 +1,5 @@
-# IoT Attack Surface Areas 物聯網攻擊面向
-
+# IOT Attack Surface Areas 物聯網攻擊面向
  Attack Surface	Vulnerability
-
 ## Ecosystem Access Control	
 
 Implicit trust between components
@@ -12,7 +10,7 @@ Decommissioning system
 
 Lost access procedures
 
-## Device Memory攻擊設備的記憶體	
+## Device Memory	
 
 Cleartext usernames
 
@@ -22,9 +20,9 @@ Third-party credentials
 
 Encryption keys
 
-##  Device Physical Interfaces	攻擊設備的實體存取介面
+## Device Physical Interfaces	
 
-Firmware extraction提取韌體
+Firmware extraction
 
 User CLI
 
@@ -36,7 +34,7 @@ Reset to insecure state
 
 Removal of storage media
 
-Device Web Interface	
+## Device Web Interface	
 
 SQL injection
 
@@ -52,7 +50,7 @@ Account lockout
 
 Known default credentials
 
-Device Firmware	
+## Device Firmware	
 
 Hardcoded credentials
 
@@ -64,7 +62,7 @@ Encryption keys
 
 Firmware version display and/or last update date
 
-Device Network Services	
+## Device Network Services	
 
 Information disclosure
 
@@ -90,7 +88,7 @@ Vulnerable UDP Services
 
 DoS
 
-Administrative Interface	
+## Administrative Interface	
 
 SQL injection
 
@@ -114,7 +112,7 @@ Two-factor authentication
 
 Inability to wipe device
 
-Local Data Storage	
+## Local Data Storage	
 
 Unencrypted data
 
@@ -122,7 +120,7 @@ Data encrypted with discovered keys
 
 Lack of data integrity checks
 
-Cloud Web Interface	
+## Cloud Web Interface	
 
 SQL injection
 
@@ -144,7 +142,7 @@ Insecure password recovery mechanism
 
 Two-factor authentication
 
-Third-party Backend APIs	
+## Third-party Backend APIs	
 
 Unencrypted PII sent
 
@@ -154,134 +152,70 @@ Device information leaked
 
 Location leaked
 
-
-Update Mechanism	
-
+## Update Mechanism	
 
 Update sent without encryption
 
-
-
 Updates not signed
-
-
 
 Update location writable
 
-
-
 Update verification
-
-
 
 Malicious update
 
-
-
 Missing update mechanism
-
-
 
 No manual update mechanism
 
-
-
-Mobile Application	
-
+## Mobile Application	
 
 Implicitly trusted by device or cloud
 
-
-
 Username enumeration
-
-
 
 Account lockout
 
-
-
 Known default credentials
-
-
 
 Weak passwords
 
-
-
 Insecure data storage
-
-
 
 Transport encryption
 
-
-
 Insecure password recovery mechanism
-
-
 
 Two-factor authentication
 
-
-Vendor Backend APIs	
-
-
+## Vendor Backend APIs	
 
 Inherent trust of cloud or mobile application
 
-
-
 Weak authentication
-
-
 
 Weak access controls
 
-
 Injection attacks
 
-
-
-Ecosystem Communication	
-
-
+## Ecosystem Communication	
 
 Health checks
 
-
 Heartbeats
-
-
 
 Ecosystem commands
 
-
-
 Deprovisioning
-
-
 
 Pushing updates
 
-
-
-Network Traffic	
-
+## Network Traffic	
 
 LAN
 
-
-
 LAN to Internet
-
-
 
 Short range
 
-
-
 Non-standard
-
-
-
