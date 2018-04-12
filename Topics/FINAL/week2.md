@@ -300,3 +300,26 @@ sudo service apache2 reload
 sudo sed -i "s/SecRuleEngine DetectionOnly/SecRuleEngine On/" /etc/modsecurity/modsecurity.conf
 sudo sed -i "s/SecResponseBodyAccess On/SecResponseBodyAccess Off/" /etc/modsecurity/modsecurity.conf
 ```
+```
+sudo vim /etc/apache2/mods-enabled/security2.conf
+------------------------------------------------------------------------------------
+<IfModule security2_module>
+        # Default Debian dir for modsecurity's persistent data
+        SecDataDir /var/cache/modsecurity
+
+        # Include all the *.conf files in /etc/modsecurity.
+        # Keeping your local configuration in that directory
+        # will allow for an easy upgrade of THIS file and
+        # make your life easier
+        IncludeOptional /etc/modsecurity/*.conf
+        #在security2.conf加上底下二行
+        IncludeOptional "/usr/share/modsecurity-crs/*.conf"
+        IncludeOptional "/usr/share/modsecurity-crs/activated_rules/*.conf"
+</IfModule>
+------------------------------------------------------------------------------------
+
+sudo service apache2 reload
+
+sudo cp /usr/share/modsecurity-crs/base_rules/modsecurity_crs_41_sql_injection_attacks.conf /usr/share/modsecurity-crs/activated_rules/
+sudo service apache2 reload
+```
