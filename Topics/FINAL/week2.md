@@ -102,6 +102,8 @@ cat access.log
 
 ### cat error.log
 
+DVWA網頁下過的指令有錯誤的，會記錄在error.log中，
+讓使用者知道有那些錯誤的內容
 ```
 [Thu Apr 12 00:09:46.000543 2018] [mpm_prefork:notice] [pid 1119] AH00163: Apach
 e/2.4.18 (Ubuntu) configured -- resuming normal operations
@@ -131,6 +133,8 @@ led version="2.9.2"
 
 ### cat access.log
 
+DVWA網頁下過的指令都會記錄在access.log中，
+讓使用者了解下過那些指令
 ```
 
 192.168.2.50 - - [12/Apr/2018:00:12:14 +0800] "GET /DVWA/vulnerabilities/sqli/?id=%27+or+1%3D1&Submit=Submit HTTP/1.1" 403 530 "http://192.168.2.61/DVWA/vulnerabilities/sqli/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
