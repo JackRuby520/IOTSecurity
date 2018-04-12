@@ -117,6 +117,9 @@ $_DVWA[ 'default_phpids_verbose' ] = 'false';
 ```
 ```
 註記:特別注意單引號''
+
+在Google申請recaptcha_public_key、recaptcha_private_key兩組key
+
 -----------------------------------------------------
 $_DVWA[ 'db_user' ] = 'root';
 $_DVWA[ 'db_password' ] = 'xxxxxxxxxx';
@@ -127,7 +130,7 @@ $_DVWA[ 'recaptcha_private_key' ] = 'xxxxxxxxxxxxx';
 
 $_DVWA[ 'default_security_level' ] = ‘low';
 -----------------------------------------------------
-
+#
 sudo chmod +777  /var/www/html/DVWA/hackable/uploads/
 sudo chmod  +777 /var/www/html/DVWA/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
 
