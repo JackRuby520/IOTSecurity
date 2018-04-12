@@ -288,7 +288,9 @@ led version="2.9.2"
 sudo apt-get update
 sudo apt-get install libapache2-modsecurity -y
 
-sudo a2enconf fqdn && sudo systemctl reload apache2
+錯誤 sudo a2enconf fqdn && sudo systemctl reload apache2
+sudo systemctl reload apache2
+
 sudo  service apache2 reload
 sudo apachectl -M | grep --color security2
 
