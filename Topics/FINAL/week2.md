@@ -333,3 +333,10 @@ python apache parser
 https://github.com/rory/apache-log-parser
 
 apache data transfer log to json
+
+https://github.com/kadnan/logs2json
+
+sqlmap detect waf
+
+sqlmap bypass waf
+
