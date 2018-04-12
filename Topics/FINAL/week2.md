@@ -325,6 +325,6 @@ sudo service apache2 reload
 
 http://172.20.168.23/DVWA/vulnerabilities/sqli/
 
-SQL Injection 輸入 1' or '1' = '1 送出，畫面會出現無網頁畫面，
+SQL Injection 輸入 1' or '1' = '1 送出，畫面會出現無網頁，
 會查不到使用者帳密
 ```
