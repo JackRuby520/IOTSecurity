@@ -322,8 +322,7 @@ sudo service apache2 reload
 
 sudo cp /usr/share/modsecurity-crs/base_rules/modsecurity_crs_41_sql_injection_attacks.conf /usr/share/modsecurity-crs/activated_rules/
 sudo service apache2 reload
-```
-```
+
 http://172.20.168.23/DVWA/vulnerabilities/sqli/
 
 SQL Injection 輸入 1' or '1' = '1 送出，畫面會出現無網頁畫面，
