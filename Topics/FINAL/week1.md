@@ -59,7 +59,7 @@ sudo service apache2 restart
 ```
 cd /var/www/html
 sudo apt-get git
-git clone https://github.com/ethicalhack3r/DVWA.git
+sudo git clone https://github.com/ethicalhack3r/DVWA.git
 cp DVWA/config/config.inc.php.dist DVWA/config/config.inc.php
 
 修改設定檔:vim DVWA/config/config.inc.php
