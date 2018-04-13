@@ -31,12 +31,10 @@ DVWA網頁下過的指令有錯誤的，會記錄在error.log中，
 
 DVWA網頁下過的指令都會記錄在access.log中，
 讓使用者了解下過那些指令
-```
 
 ![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/DVMA/access.jpg)
 
 
-```
 ### 安裝modsecurity
 ```
 sudo apt-get update
