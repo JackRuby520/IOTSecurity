@@ -62,7 +62,7 @@ sudo apt-get git
 sudo git clone https://github.com/ethicalhack3r/DVWA.git
 cp DVWA/config/config.inc.php.dist DVWA/config/config.inc.php
 
-修改設定檔:vim DVWA/config/config.inc.php
+修改設定檔:sudo nano DVWA/config/config.inc.php
 ```
 
 ```
@@ -131,7 +131,8 @@ $_DVWA[ 'recaptcha_private_key' ] = 'xxxxxxxxxxxxx';
 
 $_DVWA[ 'default_security_level' ] = ‘low';
 -----------------------------------------------------
-#
+
+# 所有的權限都設定啟用，在遠端連線才能看到DVMA的網頁
 sudo chmod +777  /var/www/html/DVWA/hackable/uploads/
 sudo chmod  +777 /var/www/html/DVWA/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
 
