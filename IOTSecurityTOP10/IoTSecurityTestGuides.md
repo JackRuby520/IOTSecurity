@@ -1,6 +1,8 @@
 # IoT Security TOP 10 物聯網十大安全測試
 物聯網十大安全測試目標是幫助測試人員評估物聯網空間中的物聯網設備和應用程序。下面列出10項基本測試。但這不是全部的事項，但確保涵蓋這些基本原則將大大提高任何物聯網產品的安全性
 ## I1. Insecure Web Interface 不安全的網頁介面
+> 內容: [其實也就是一般最常見的Web安全，任何網站在實作上可能產生的漏洞(SQLi, XSS, CSRF…)都在這個範疇，可參考OWASP Top 10。]
+
 - Assess any web interface to determine if weak passwords are allowed
 - Assess the account lockout mechanism
 - Assess the web interface for XSS, SQLi and CSRF vulnerabilities and other web application vulnerabilities
