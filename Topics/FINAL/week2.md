@@ -73,18 +73,24 @@ sudo vim /etc/apache2/mods-enabled/security2.conf
         IncludeOptional "/usr/share/modsecurity-crs/*.conf"
         IncludeOptional "/usr/share/modsecurity-crs/activated_rules/*.conf"
 </IfModule>
-------------------------------------------------------------------------------------
+```
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/modsecurity/3.jpg)
 
+```
 sudo service apache2 reload
 
 sudo cp /usr/share/modsecurity-crs/base_rules/modsecurity_crs_41_sql_injection_attacks.conf /usr/share/modsecurity-crs/activated_rules/
 sudo service apache2 reload
-
+```
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/modsecurity/4.jpg)
+```
 http://172.20.168.23/DVWA/vulnerabilities/sqli/
 
 SQL Injection 輸入 1' or '1' = '1 送出，畫面會出現無網頁，
 會查不到使用者帳密
 ```
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/modsecurity/5.jpg)
+
 python apache parser
 
 https://github.com/rory/apache-log-parser
