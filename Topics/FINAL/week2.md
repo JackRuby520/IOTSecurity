@@ -1,5 +1,3 @@
-# 期末專案:物聯網設備的攻擊實測
-
 ## 建置dvwa測試平台在Raspberry PI 3 websecurity@IOT devices
 
 ### 漏洞測試
