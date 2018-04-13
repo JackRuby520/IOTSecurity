@@ -49,6 +49,8 @@ sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev
 ### [3]安裝{3}:apache+Mysql+PHP
 
 ```
+要系統更新完才能安裝php相關套件
+sudo apt-get update
 sudo apt-get install apache2 php libapache2-mod-php php-curl php-mcrypt php-mbstring phpunit php-gd -y
 sudo apt-get install mysql-server php-mysqli -y
 sudo service apache2 restart
@@ -56,6 +58,7 @@ sudo service apache2 restart
 ### [4]安裝{4}:安裝DVWA
 ```
 cd /var/www/html
+sudo apt-get git
 git clone https://github.com/ethicalhack3r/DVWA.git
 cp DVWA/config/config.inc.php.dist DVWA/config/config.inc.php
 
