@@ -39,7 +39,9 @@ DVWA網頁下過的指令都會記錄在access.log中，
 ```
 sudo apt-get update
 sudo apt-get install libapache2-modsecurity -y
-
+```
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/modsecurity/1.jpg)
+```
 錯誤 sudo a2enconf fqdn && sudo systemctl reload apache2
 sudo systemctl reload apache2
 
@@ -52,6 +54,9 @@ sudo service apache2 reload
 sudo sed -i "s/SecRuleEngine DetectionOnly/SecRuleEngine On/" /etc/modsecurity/modsecurity.conf
 sudo sed -i "s/SecResponseBodyAccess On/SecResponseBodyAccess Off/" /etc/modsecurity/modsecurity.conf
 ```
+
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/modsecurity/2.jpg)
+
 ```
 sudo vim /etc/apache2/mods-enabled/security2.conf
 ------------------------------------------------------------------------------------
