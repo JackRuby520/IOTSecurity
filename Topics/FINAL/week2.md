@@ -1,6 +1,6 @@
-## 建置dvwa測試平台在Raspberry PI 3 websecurity@IOT devices
+# 建置dvwa測試平台在Raspberry PI 3 websecurity@IOT devices
 
-# DVWA漏洞測試架構
+## DVWA漏洞測試架構
 
 ![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/class/2.jpg)
 
@@ -36,6 +36,11 @@ DVWA網頁下過的指令都會記錄在access.log中，
 
 ![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/DVMA/access.jpg)
 
+在網址打 http://172.20.168.157/DVWA/vulnerabilities/fi/?page=../../../../../../etc/password
+
+## cat error.log會出現剛才打網址的error message
+
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/DVMA/error2.jpg)
 
 ### 安裝modsecurity
 ```
