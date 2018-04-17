@@ -98,7 +98,7 @@ $_DVWA[ 'db_port '] = '5432';
 #   You'll need to generate your own keys at: https://www.google.com/recaptcha/$
 # $_DVWA[ 'recaptcha_public_key' ]  = '';
 # $_DVWA[ 'recaptcha_private_key' ] = '';
-
+#在Google申請recaptcha_public_key、recaptcha_private_key兩組key
 $_DVWA[ 'recaptcha_public_key' ] = '6LfQNCYTAAAAALx0oAwtLHJlzNHXTKLl2UZjQjw-';
 $_DVWA[ 'recaptcha_private_key' ] = '6LfQNCYTAAAAAHnvqCzw2lG95FD-RfomKHWf7Zob';
 
@@ -120,25 +120,17 @@ $_DVWA[ 'default_phpids_level' ] = 'disabled';
 $_DVWA[ 'default_phpids_verbose' ] = 'false';
 ?>
 ```
+
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/apache+Mysql+PHP/6.jpg)
+
 ```
-註記:特別注意單引號''
-
-在Google申請recaptcha_public_key、recaptcha_private_key兩組key
-
------------------------------------------------------
-$_DVWA[ 'db_user' ] = 'root';
-$_DVWA[ 'db_password' ] = 'xxxxxxxxxx';
-
-
-$_DVWA[ 'recaptcha_public_key' ] = 'xxxxxxxxxxxxxx';
-$_DVWA[ 'recaptcha_private_key' ] = 'xxxxxxxxxxxxx';
-
-$_DVWA[ 'default_security_level' ] = ‘low';
------------------------------------------------------
-
 # 所有的權限都設定啟用，在遠端連線才能看到DVMA的網頁
 sudo chmod +777  /var/www/html/DVWA/hackable/uploads/
 sudo chmod  +777 /var/www/html/DVWA/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-mod_security-with-apache-on-debian-ubuntu
 ```
+
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/apache+Mysql+PHP/7.jpg)
+
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/apache+Mysql+PHP/8.jpg)
