@@ -38,7 +38,7 @@ DVWA網頁下過的指令都會記錄在access.log中，
 
 在網址打 http://172.20.168.157/DVWA/vulnerabilities/fi/?page=../../../../../../etc/password
 
-## cat error.log會出現剛才打網址的error message
+#### cat error.log 會出現剛才打網址的error message
 
 ![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/DVMA/error2.jpg)
 
