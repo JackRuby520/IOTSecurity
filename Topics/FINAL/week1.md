@@ -1,6 +1,8 @@
 
 # 建置dvwa測試平台在Raspberry PI 3 websecurity@IOT devices
 
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/class/1.jpg)
+
 ### [1]下載
 ```
 你可你裝裝其他作業系統玩玩看
