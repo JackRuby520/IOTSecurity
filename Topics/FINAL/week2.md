@@ -1,5 +1,7 @@
 ## 建置dvwa測試平台在Raspberry PI 3 websecurity@IOT devices
 
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/class/2.jpg)
+
 ### 漏洞測試
 ```
 測試
