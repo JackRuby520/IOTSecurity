@@ -120,6 +120,7 @@ $_DVWA[ 'default_phpids_level' ] = 'disabled';
 $_DVWA[ 'default_phpids_verbose' ] = 'false';
 ?>
 ```
+![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/apache+Mysql+PHP/5.jpg)
 
 ![image](https://github.com/JackRuby520/IOTSecurity/blob/master/pic/apache+Mysql+PHP/6.jpg)
 
