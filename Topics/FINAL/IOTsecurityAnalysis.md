@@ -164,13 +164,12 @@ cd jffi
 ant jar
 sudo cp build/jni/libjffi-1.2.so /opt/logstash/vendor/jruby/lib/jni/arm-Linux
 
+cd /opt/logstash
 sudo vim config/jvm.options
 ----------------------------------
 -Xms512m
 -Xmx512m
 ----------------------------------
-
-
 
 cd /opt/logstash
 sudo vim apache-filter.conf 
