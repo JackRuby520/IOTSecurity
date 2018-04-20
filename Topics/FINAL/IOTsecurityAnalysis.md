@@ -162,8 +162,9 @@ sudo apt-get install ant texinfo openjdk-8-jdk build-essential
 git clone https://github.com/jnr/jffi.git
 cd jffi
 ant jar
-sudo cp build/jni/libjffi-1.2.so /opt/logstash/vendor/jruby/lib/jni/arm-Linux
-
+錯誤sudo cp build/jni/libjffi-1.2.so /opt/logstash/vendor/jruby/lib/jni/arm-Linux
+在arm-Linux資料夾就己經存在libjffi-1.2.so
+/opt/logstash/vendor/jruby/lib/jni/arm-Linux
 cd /opt/logstash
 sudo vim config/jvm.options
 ----------------------------------
