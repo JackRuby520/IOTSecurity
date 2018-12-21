@@ -50,6 +50,18 @@ sudo apt-get install gddrescue xz-utils
 unxz ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
 sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev/sdx
 ```
+
+```
+【全模式】: 我/ 來/ 到/ 台南/ 崑/ 山/ 科技/ 大/ 學
+
+【精確模式】: 我來/ 到/ 台南/ 崑/ 山/ 科技/ 大學
+
+【新詞識別】蟻, 人, 變大, 真的, 很, 好笑, ，, 非常, 符合, 蟻, 人, 電影, 風格
+
+【搜索引擎模式】： 相信, 有, 愛, 就, 有, 奇, 蹟, 我, 的, 愛情, 悄悄, 來臨 
+
+```
+
 ### [3]安裝{3}:apache+Mysql+PHP
 
 ```
